@@ -1,0 +1,212 @@
+.sidebar>ul>li{
+  list-style: none;
+  line-height: 25px;
+  margin-bottom: 10px;
+
+  
+}
+
+
+body{
+  background-color: black;
+  color: white;
+}
+ul,input,.heading{
+  position: sticky;
+  top: 0;
+}
+.sidebar>.logo{
+  position: sticky;
+  top: 0px;
+
+
+}
+
+
+.sidebar>ul{
+  position: sticky;
+  top: 1px;
+
+}
+
+.heading{
+
+  position: sticky;
+  top: 20px;
+  padding-left: 26px;
+}
+
+li{
+  list-style: none;
+}
+
+.profile{
+  border-radius: 50%;
+}
+
+.sidebardiv{
+  border: 1px solid black;
+  background-color: #16181C;
+  color: white;
+  margin-top: 10px;
+  border-radius: 10px;
+  padding: 0 10px;
+  margin: 0 20px;
+  position: sticky;
+  top: 60px;
+}
+
+.trendheading{
+  padding: 0;
+  margin: 0;
+  font-weight: bold;
+}
+
+.trend{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+input{
+  margin: 10px 20px;
+  border-radius: 30px;
+  width: 252px;
+  height: 35px;
+  color: #71767B;
+}
+
+
+
+
+span{
+  font-size: smaller;
+  color: #71767B;
+  margin: 7px 0;
+}
+
+.button{
+  border-radius: 50px;
+  height: 40px;
+  padding: 0 20px;
+  background-color: #1D9BF0;
+  font-weight: bold;
+}
+
+.hashtag{
+  font-size: medium;
+ color: white;
+}
+
+.icons{
+  font-size: 20px;
+  margin-right: 20px;
+  padding: 3px;
+}
+
+.posticons{
+  font-size: 20px;
+  margin: 10px 5px;
+  margin-right: 0px;
+  color: #71767B;
+
+
+}
+
+.logo,h5{
+  position: sticky;
+  top: 1px;
+}
+
+h5{
+  backdrop-filter: blur(20px);
+ background-color:black ;
+ padding: 10px;
+}
+
+.iconsflex{
+  display: flex;
+  
+  justify-content: space-between;
+}
+
+.postwriting{
+  font-size: large;
+  margin: 10px;
+}
+
+
+@media screen and (min-width: 800px) {
+  .sidebartablet,.sidebar2tablet,.posttablet,.post2tablet{
+    display: none;
+  }
+  .icons{
+    padding: 4px;
+  }
+
+ 
+
+  
+
+  
+}
+
+
+/* tablet csss */
+
+
+.tabletinput{
+  width: 180px;
+
+}
+
+.tabletbutton{
+  position: sticky;
+  top: 400px;
+}
+
+
+
+.tablethead{
+  width: 300px;
+}
+
+@media screen and (max-width: 800px) {
+  .sidebar,.sidebar2,.post,.post2{
+    display: none;
+  }
+
+  .icons{
+    padding: 10px;
+  }
+
+  .hometablet{
+    width: 300px;
+  }
+
+  
+
+  
+}
+
+
+
+
+
+/* mobile screen */
+@media screen and (max-width: 600px) {
+  .sidebar,.sidebar2,.whatshappening, .sidebartablet,.sidebar2tablet{
+    display: none;
+  }
+ 
+  .home{
+    width: 400px;
+  }
+  
+
+  .postimg{
+    width: 400px;
+  }
+
+  
+}
